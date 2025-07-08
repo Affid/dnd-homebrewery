@@ -16,6 +16,7 @@ const PrintNavItem = require('../../navbar/print.navitem.jsx');
 const ErrorNavItem = require('../../navbar/error-navitem.jsx');
 const Account = require('../../navbar/account.navitem.jsx');
 const RecentNavItem = require('../../navbar/recent.navitem.jsx').both;
+const SyncBrew = require("../../navbar/update.navitem.jsx").item;
 const VaultNavItem = require('../../navbar/vault.navitem.jsx');
 
 const SplitPane = require('naturalcrit/splitPane/splitPane.jsx');
@@ -441,6 +442,7 @@ const EditPage = createClass({
 						post to reddit
 					</Nav.item>
 				</Nav.dropdown>
+				<SyncBrew updateBrew={this.updateBrew} trySave={this.trySave} processShareId={this.processShareId} />
 				<PrintNavItem />
 				<VaultNavItem />
 				<RecentNavItem brew={this.state.brew} storageKey='edit' />
