@@ -413,13 +413,13 @@ module.exports = [
 			},
 			{
 				name : 'Book Insanity',
-				icon : 'font BookInsanityRemake',
-				gen	 : dedent`{{font-family:BookInsanityRemake Dummy Text}}`
+				icon : 'font Mookmania',
+				gen	 : dedent`{{font-family:Mookmania Dummy Text}}`
 			},
 			{
-				name : 'Mr Eaves',
-				icon : 'font MrEavesRemake',
-				gen	 : dedent`{{font-family:MrEavesRemake Dummy Text}}`
+				name : 'AlegreyaSC',
+				icon : 'font AlegreyaSC',
+				gen	 : dedent`{{font-family:AlegreyaSC Dummy Text}}`
 			},
 			{
 				name : 'Pagella',
@@ -431,10 +431,15 @@ module.exports = [
 				icon : 'font SolberaImitationRemake',
 				gen  : dedent`{{font-family:SolberaImitationRemake Dummy Text}}`
 			  },
+			{
+				name : 'Volbera',
+				icon : 'font Volbera',
+				gen  : dedent`{{font-family:Volbera Dummy Text}}`
+			  },
 			  {
 				name : 'Scaly Sans Small Caps',
-				icon : 'font ScalySansSmallCapsRemake',
-				gen  : dedent`{{font-family:ScalySansSmallCapsRemake Dummy Text}}`
+				icon : 'font ScalySansRemake',
+				gen  : dedent`{{font-family:ScalySansRemake Dummy Text}}`
 			  },
 			  {
 				name : 'Walter Turncoat',
@@ -457,9 +462,9 @@ module.exports = [
 				gen  : dedent`{{font-family:NodestoCapsCondensed Dummy Text}}`
 			  },
 			  {
-				name : 'Overpass',
-				icon : 'font Overpass',
-				gen  : dedent`{{font-family:Overpass Dummy Text}}`
+				name : 'AlegreyaSans',
+				icon : 'font AlegreyaSans',
+				gen  : dedent`{{font-family:AlegreyaSans Dummy Text}}`
 			  },
 			  {
 				name : 'Davek',
